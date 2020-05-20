@@ -1,0 +1,11 @@
+.icon{
+  
+    height: 19px;
+    width: 19px;
+   margin:0 5px;
+   cursor:pointer;
+}
+h1{
+    font-family: sans-serif;
+    text-align: center;
+}

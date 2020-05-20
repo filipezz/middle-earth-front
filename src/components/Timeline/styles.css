@@ -1,0 +1,94 @@
+body{
+  background:#eee;
+  margin:0
+}
+.place-container{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color:#222;
+  background:#fff;
+  margin:10px 15px;
+  box-sizing: border-box;
+  padding:15px;
+  border-radius: 4px;
+  box-shadow:6px 7px 10px 0px rgba(0, 0, 0, 0.2);
+  
+
+}
+img{
+  width:350px;
+  height:200px;
+  border-radius:4px;
+  
+}
+.content{
+  display: flex;
+  flex-wrap: wrap;
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  
+  margin-top:10px;
+}
+button{
+  border:0;
+  height: 45px;
+  background: salmon;
+  width: 100%;
+  border-radius: 4px;
+  cursor: pointer;
+  color:#fff;
+  font-weight: bolder;
+  font-family: sans-serif;
+  transition: background 0.1s;
+  margin:5px 0;
+  outline:0
+  
+}
+.like-count{
+  display:flex;
+  align-items: center;
+  align-self: center;
+  padding:5px 0;
+  font-weight:bold;
+  font-family:sans-serif
+}
+button:hover{
+  background: rgb(255, 141, 128);
+}
+.heart{
+  width: 26px;
+  height: 26px;
+  margin-right: 5px;
+}
+strong{
+  font-family: sans-serif;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.posted-by{
+  font-family: sans-serif;
+  color:#999;
+  font-size: 12px;
+  margin:5px 0
+}
+a.header{
+  font-family: sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color:salmon;
+  margin: 0 15px;
+}
+header{
+  background:#fff;
+  display:flex;
+  height: 55px;
+  display:flex;
+  align-items: center;
+  
+}
