@@ -1,4 +1,4 @@
-# Middle Earth
+# Middle Earth app
 
 Desafio proposto pela PlayerUm. O projeto consiste em um sistema onde usuários podem votar qual o melhor lugar para se viver na Terra Média.
 Usuários cadastrados podem cadastrar novos lugares para serem votados e gerencia-los.
