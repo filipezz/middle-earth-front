@@ -34,7 +34,7 @@ function Timeline(){
     }
     loadPlaces()
   }catch(err){
-    console.log(err)
+    throw err
   }
   }
   
